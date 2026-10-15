@@ -10,7 +10,7 @@ jobs:
 
     env:
       AWS_REGION: us-east-1 # Sesuaikan dengan region Learner Lab kamu
-      ECR_REPOSITORY: CloudComputing-ECR # Sesuaikan dengan nama repo ECR kamu
+      ECR_REPOSITORY: devops-user-api # Sesuaikan dengan nama repo ECR kamu
 
     steps:
       - name: Checkout Code
